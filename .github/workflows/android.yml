@@ -28,9 +28,6 @@ jobs:
       - name: Build Web
         run: npm run build
 
-      - name: Sync Capacitor
-        run: npx cap sync android
-
       - name: Grant execute permission
         run: chmod +x android/gradlew
 
