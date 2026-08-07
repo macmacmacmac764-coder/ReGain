@@ -1,6 +1,6 @@
-Import type { CapacitorConfig } from '@capacitor/cli'
+import type { CapacitorConfig } from '@capacitor/cli'
 
-Const config: CapacitorConfig = {
+const config: CapacitorConfig = {
   appId: 'com.regain.focusshield',
   appName: 'ReGain',
   webDir: 'dist',
@@ -12,4 +12,4 @@ Const config: CapacitorConfig = {
   },
 }
 
-Export default config
+export default config
