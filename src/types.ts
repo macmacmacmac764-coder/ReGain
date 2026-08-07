@@ -1,5 +1,5 @@
 export interface FocusSession {
-  Id: string
+  id: string
   startedAt: number
   endedAt?: number
   duration: number
@@ -8,7 +8,7 @@ export interface FocusSession {
 }
 
 export interface BlockedSite {
-  Id: string
+  id: string
   url: string
   label: string
   enabled: boolean
