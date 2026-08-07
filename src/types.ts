@@ -1,4 +1,4 @@
-Export interface FocusSession {
+export interface FocusSession {
   Id: string
   startedAt: number
   endedAt?: number
@@ -7,7 +7,7 @@ Export interface FocusSession {
   completed: boolean
 }
 
-Export interface BlockedSite {
+export interface BlockedSite {
   Id: string
   url: string
   label: string
